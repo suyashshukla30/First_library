@@ -4,7 +4,7 @@ plugins {
 
 android {
     compileSdk 32
-    publishNonDefault true
+
     defaultConfig {
         applicationId "com.suyashshukla.first_library"
         minSdk 22

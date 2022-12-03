@@ -8,7 +8,7 @@ import android.print.PrintManager;
 import android.webkit.WebView;
 import android.widget.Toast;
 
-public class takedata {
+public class Force {
     public static void Convert(Context context, WebView wv){
         boolean printBtnPressed = true;
         PrintJob printJob;
