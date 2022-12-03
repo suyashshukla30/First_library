@@ -1,22 +1,17 @@
 package com.suyashshukla.first_library;
-import android.content.Context;
+
 import android.os.Build;
 import android.os.Bundle;
-import android.print.PrintAttributes;
-import android.print.PrintDocumentAdapter;
 import android.print.PrintJob;
-import android.print.PrintManager;
 import android.view.View;
 import android.webkit.WebView;
 import android.webkit.WebViewClient;
 import android.widget.Button;
 import android.widget.Toast;
-import androidx.annotation.RequiresApi;
 import androidx.appcompat.app.AppCompatActivity;
 
 public class MainActivity extends AppCompatActivity {
 
-    // creating object of WebView
     WebView printWeb;
 
     @Override
